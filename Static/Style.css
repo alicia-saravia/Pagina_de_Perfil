@@ -1,0 +1,198 @@
+.conteiner-principal{
+    width: 1200px;
+    height: 800px;
+    background-color:white;
+    margin: 30px auto;
+    border: 3px solid gray;
+    
+}
+
+.barra-navegacion {
+    width: 1200px;
+    color:white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between
+
+    }
+    
+    .barra-title{
+        display: flex;
+        padding-left: 10px;
+    }
+    
+    .barra-links {
+        display: flex;
+        padding-right: 10px;
+        align-items: center;
+    }
+    
+    .barra-links a {
+        color: white;
+        padding: 15px;
+        text-decoration: none;
+    }
+    
+    li {
+        list-style:none; 
+    }
+    
+    .boton {
+        background-color: aqua;
+        border-color: black;
+    }
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .conteiner-1{
+        width: 300px;
+        height: 300px;
+        background-color: white;
+        margin: 30px auto;
+        border: 3px solid gray;
+        position: relative;
+        top: 50px;
+    }
+        
+    .bloque {
+        height: 100px;
+        width: 10;
+        background-color: powderblue;
+        display: flex;
+    }
+    
+    
+    .bloque img {
+        height: 100px;
+        margin: 10px;
+        position: relative;
+        top: 50px;
+        border: 5px solid white;
+        border-radius: 50%;
+    }
+    
+    .col3 h1{
+        color: black;
+        position: relative;
+        top: 50px;
+    }
+    
+    .texto {
+        padding-left: 30px;
+        border: 2px solid gray;
+    }
+    
+    .mapa {
+        height: 20px;
+    }
+    
+    h3 {
+        margin: 0px;
+    }
+    
+    .editar_perfil{
+        height: 20px;
+        padding-right: 10px;
+        vertical-align: middle;
+    }
+
+    .row{
+        display: flex;
+    }
+    
+    
+    .col2{
+        flex: 2;
+        padding: 20px;
+        margin: 10px;
+    }
+    
+    .solicitud-conexion{
+        background-color: black;
+        color: white;
+        padding: 10px;
+    }
+
+    .col3{
+        flex: 4; /*divide los espacios en columnas*/
+        padding: 20px;
+        margin: 10px;
+        background-color: white;
+    }
+
+    .educacion{
+        margin-top: 10px;
+        color:white;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10px;
+        
+        }
+
+    .datos-educativos{
+        border: 2px solid gray;
+        padding-left: 10px;
+    }
+
+    .bloque-1{
+        width: 10;
+        background-color: white;
+        display: flex;
+        border: 2px solid gray;
+    }
+    .usuario {
+        height: 30px;
+        padding: 10px;
+        vertical-align: middle;
+    }
+
+    .izquierda {
+        flex:2;
+    }
+    .derecha {
+        flex: 1;
+        align-items: end;
+    }
+
+    .izquierda1 {
+        flex:2;
+    }
+    .derecha1 {
+        flex: 1;
+        align-items: end;
+    }
+
+    .conexiones{
+        background-color: black;
+        color: white;
+        padding: 20px;
+    }
+
+    .view{
+        height: 40px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    span.circulo {
+        background: white;
+        color: gray;
+        display: inline-block;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 50%;
+        width: 1.1em; /*unidad de medida*/
+    }
+
+    span.circulo2 { /*etiqueta de texto, darle un estilo*/
+        background: white;
+        color: gray;
+        display: inline-block;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 50%;
+        width: 3em;
+    }
